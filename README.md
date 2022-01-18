@@ -221,6 +221,10 @@
     Boss.cs에서 전반적인 능력치를 다룬다. BossAI.cs에서는 보스의 공격 알고리즘이 구현되어 있다. fieldofvision을 설정해서 특정 거리로 들어오게 되면 보스가 플레이어를 바라보며, 공격 범위 내로 들어오면 공격모션을 취한다. 그 외의 상황에서는 move함수를 통해 플레이어를 향해 이동한다. 보스의 Hp가 절반 이하로 내려가면, 난수를 통해 여러 스킬들을 사용한다. 이 스킬들의 데미지는 매우 높게 설정해 클리어하기 어렵게 설정했다.
     
     <img width="1136" alt="스크린샷 2022-01-18 오후 8 47 28" src="https://user-images.githubusercontent.com/32477937/149935974-189e9dab-0765-4910-a6a6-5cfba958f1ed.png">
+    
+    
+    ![skillchange](https://user-images.githubusercontent.com/32477937/149936540-38c9d403-53f2-4dc9-9019-49664d6013a5.gif)
+
 
        
     ```csharp
