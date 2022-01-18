@@ -112,6 +112,9 @@
         
         체력을 가지는 클래스인 Fighter를 상속하면서 움직임을 담당하는 클래스인 mover를 플레이어가 상속받는다. 플레이어에는 공격력, HP, MP, 경험치, 레벨 시스템을 가지고 있으며 레벨이 오를 때마다 HP와 공격력이 늘어나며 HP가 full이 되도록 구현했다.
         
+        
+        <img width="645" alt="스크린샷 2022-01-18 오후 8 46 47" src="https://user-images.githubusercontent.com/32477937/149935777-e2946b33-24e9-4656-8dc4-23170b51f1db.png">
+
         ```csharp
         using System.Collections;
         using System.Collections.Generic;
